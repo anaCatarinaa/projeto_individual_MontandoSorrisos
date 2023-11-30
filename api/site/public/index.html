@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Montando Sorrisos | Home</title>
+
+    <script src="./js/sessao.js"></script>
+
+    <link rel="icon" href="./assets/icon/favicon2.ico">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./css/indexStyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+        <script src="http://www.chartjs.org/dist/2.7.1/Chart.js"></script>
+        <script src="http://www.chartjs.org/samples/latest/utils.js"></script>
+        <style>
+        canvas {
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+        }
+    </style>
+
+</head>
+
+
+<!-- HEADER-->
+<body>
+    <div class="header">
+      <div class="container">
+        <h1 class="titulo">Montando Sorrisos</h1>
+        <ul class="navbar">
+          <li>
+            <a href="./index.html">Home</a>
+          </li>
+          <li>
+            <a href="#">Curiosidades</a>
+          </li> 
+          <li>
+            <a href="#">Monte um Sorriso</a>
+          </li>
+          <li>
+            <a href="#">Contato</a>
+          </li>
+          <li>
+            <a href="./cadastro.html">Cadastro</a>
+          </li>
+          <li>
+            <button class="buttonLogin"><a href="./login.html">Login</a></button>
+          </li>
+        </ul>
+      </div>
+    </div>
+<!-- HEADER-->
+
+
+
+
+
+  
+    <div class="banner">
+      <div class="container">
+        <p>Montando Sorrisos! <span>Montar quebra cabeça é muito bom!</span></p>
+      </div>
+    </div>
+
+
+  <div class="social">
+    <div class="container_texto">
+      <div class="titulo_sobre"><h2>Titulo</h2></div>
+      <div class="texto_sobre"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, quas cupiditate asperiores provident magnam vitae illum iusto fugiat atque deleniti nulla sed iure suscipit, laborum, aliquid accusantium cum dicta
+        minima.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, quas cupiditate asperiores provident magnam
+        vitae illum iusto fugiat atque deleniti nulla sed iure suscipit, laborum, aliquid accusantium cum dicta
+        minima.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, quas cupiditate asperiores provident magnam
+        vitae illum iusto fugiat atque deleniti nulla sed iure suscipit, laborum, aliquid accusantium cum dicta
+        minima</p>
+    </div>
+  
+    <div class="imagens_texto">
+      <img src="./assets/imgs/quebracabecaempe.webp" alt="">
+      <img src="./assets/imgs/quebracabecaempe.webp" alt="">
+      <img src="./assets/imgs/quebracabecaempe.webp" alt="">
+      <img src="./assets/imgs/quebracabecaempe.webp" alt="">
+    </div>
+     
+  </div>
+  
+  <div class="social">
+    <div class="conteudo_wrapper">
+      <div class="container_texto">
+        <div class="titulo_sobre"><h2>Titulo</h2></div>
+        <div class="texto_sobre_onu"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, quas cupiditate asperiores provident magnam vitae illum iusto fugiat atque deleniti nulla sed iure suscipit, laborum, aliquid accusantium cum dicta
+          minima.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, quas cupiditate asperiores provident magnam
+          vitae illum iusto fugiat atque deleniti nulla sed iure suscipit, laborum, aliquid accusantium cum dicta
+          minima.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, quas cupiditate asperiores provident magnam
+          vitae illum iusto fugiat atque deleniti nulla sed iure suscipit, laborum, aliquid accusantium cum dicta
+          minima</p>
+      </div>
+    
+      <div class="imagens_texto_onu">
+        <img src="./assets/imgs/quebracabecaempe.webp" alt="">
+        <img src="./assets/imgs/quebracabecaempe.webp" alt="">
+        <img src="./assets/imgs/quebracabecaempe.webp" alt="">
+      </div>
+    </div>
+     
+  </div>
+  
+  <div class="social">
+    <div class="conteudo_wrapper">
+      <div class="container_texto">
+        <div class="titulo_sobre"><h2>Titulo</h2></div>
+        <div class="texto_sobre_graficos"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, quas cupiditate asperiores provident magnam vitae illum iusto fugiat atque deleniti nulla sed iure suscipit, laborum, aliquid accusantium cum dicta
+          minima.</p>
+      </div>
+  
+  
+      <div class="Dashs">
+        <div class="grafico_topo">
+                <div>
+                    <p>Quantidade de cadastros por mês</p>
+                    <canvas id="graficoLinha"></canvas>
+                </div>  
+                <div>
+                  <p id="titulo_grafico_donnut">Idade das pessoas que fazem parte da comunidade</p>
+                  <canvas id="graficoDonnut"></canvas>
+                </div>                                      
+            </div>
+        <div class="grafico_baixo">
+                <div>
+                <p>Gênero das pessoas que fazem parte da comunidade</p>    
+                <canvas id="graficoBarra"></canvas>
+                </div>
+            </div>
+        </div>
+                
+        
+      </div>
+    </div>
+     
+  </div>
+  
+  
+  <footer class="rodape">
+    <div class="conteudo_rodape">
+      <p>Montando Sorrisos</p>
+      <div class="rodape-links">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./curiosidadesInicial.html">Curiosidades</a></li>
+          <li><a href="./monteUmSorriso.html">Monte um Sorriso</a></li>
+          <li><a href="./forum.html">Forum</a></li>
+          <li><a href="./contato.html">Contato</a></li>
+          <li><a href="./cadastro.html">Cadastro</a></li>
+          <li><a href="./login.html">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+   
+  
+  <script src="./js/graficos.js"></script> 
+
+
+
+</html>

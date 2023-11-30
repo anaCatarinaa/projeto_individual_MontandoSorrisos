@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+Linear+B&family=Open+Sans:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(232, 232, 232);
+}
+  
+  .social {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-size: 100%;
+  }
+  
+  .container_texto {
+    padding: 0px 60px 50px;
+    max-width: 100%;
+    margin-bottom: 100px;
+    /* background-color: aqua;  */
+  }
+  
+  .titulo_sobre {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+   margin-bottom: 80px;
+   margin-top: 50px;
+   }
+  
+  .texto_sobre {
+    text-align: justify;
+    border-radius: 50px;
+    padding: 30px;
+    width: 75%;
+    position: absolute; /* Posiciona o elemento absolutamente */
+    left: 50%; /* Define a posição esquerda no meio da tela */
+    transform: translate(-50%, -50%); /* Centraliza o elemento com base em sua largura e altura */
+    margin-top: 50px;
+    background-color: rgb(117, 175, 175);
+    color: aliceblue;
+    letter-spacing: 0.5px;
+}
+  
+
+  .imagens_texto {
+    display: flex;
+    justify-content: space-between; /* Alterado de space-between para space-around */
+    width: 1200px;
+    margin: auto;
+    margin-top: 300px;
+  }
+  
+  .imagens_texto img {
+    width: 280px; /* Tamanho inicial das imagens */
+    height: 220px;
+    margin: 0; /* Adicionado espaçamento horizontal entre as imagens */
+    transition: width 0.5s, height 0.5s; /* Adicionada transição suave para largura e altura */
+    border-radius: 10px;
+  }
+  
+  .imagens_texto img:hover {
+    width: 300px; /* Tamanho quando o mouse está sobre a imagem */
+    height: 250px;
+    margin: 0; /* Adicionado espaçamento horizontal entre as imagens */
+  }
+
+
+
+
+
+
+
+
+
+  .texto_sobre_onu {
+    text-align: justify;
+    padding: 30px;
+    width: 75%;
+    position: absolute; /* Posiciona o elemento absolutamente */
+    left: 50%; /* Define a posição esquerda no meio da tela */
+    transform: translate(-50%, -50%); /* Centraliza o elemento com base em sua largura e altura */
+    margin-top: 50px;
+    color: rgb(1, 105, 134);
+    letter-spacing: 0.5px;
+}
+
+.imagens_texto_onu {
+  display: flex;
+  justify-content: space-around; /* Alterado de space-between para space-around */
+  margin:  auto;
+  width: 1000px;
+  margin-top: 250px;
+}
+
+.imagens_texto_onu img {
+  width: 280px; /* Tamanho inicial das imagens */
+  height: 400px;
+  margin: 0; /* Adicionado espaçamento horizontal entre as imagens */
+  transition: width 0.5s, height 0.5s; /* Adicionada transição suave para largura e altura */
+  border-radius: 10px;
+}
+
+.imagens_texto_onu img:hover {
+  width: 300px; /* Tamanho quando o mouse está sobre a imagem */
+  height: 450px;
+  margin: 0; /* Adicionado espaçamento horizontal entre as imagens */
+}
+
+.texto_sobre_graficos {
+  text-align: justify;
+  border-radius: 50px;
+  padding: 30px;
+  width: 75%;
+  position: absolute; /* Posiciona o elemento absolutamente */
+  left: 50%; /* Define a posição esquerda no meio da tela */
+  transform: translate(-50%, -50%); /* Centraliza o elemento com base em sua largura e altura */
+  margin-top: 50px;
+  background-color: rgb(238, 182, 182);
+  color: rgb(140, 13, 55);
+  letter-spacing: 0.5px;
+}
+
+
+
+
+
+
+
+
+
+
+.Dashs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Ajuste conforme necessário */
+  width: 100%;
+}
+
+.Dashs p{
+  /* background-color: black; */
+  padding-bottom: 20px;
+}
+
+.grafico_topo,
+.grafico_baixo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: blue; */
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+
+.grafico_topo div,
+.grafico_baixo div {
+  text-align: center;
+  margin-top: 60px;
+  /* background-color: blueviolet; */
+}
+
+.grafico_topo canvas,
+.grafico_baixo canvas {
+  width: 450px; 
+  height: 250px;
+  border-radius: 10px;
+}
+
+#titulo_grafico_donnut {
+  margin-top: 40px;
+}
+
+/* #graficoDonnut2{
+  width: 600px;
+  background-color: #cd8b36;
+} */
+
+
+
+
+
+
+
+
+
+.rodape{
+  background-color: rgb(108, 151, 151);
+  margin-top: 350px;
+  height: 180px;
+}
+
+.conteudo_rodape {
+  flex: 1;
+}
+
+.conteudo_rodape p {
+color: #cd8b36;
+margin-bottom: 40px;
+}
+
+.rodape {
+  background-color: #ffffff;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.rodape-links ul {
+  list-style: none;
+  padding: 0;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.rodape-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.rodape-links li a {
+  text-decoration: none;
+  color: #cd8b36;
+  font-weight: bold;
+  margin-left: 30px;
+  position: relative; /* Add this to make the absolute positioning work */
+}
+
+.rodape-links li a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: rgb(255, 196, 140);
+  border-radius: 10px;
+  left: 0;
+  top: 25px;
+  transform: scaleX(0);
+  transition: transform .3s;
+}
+
+.rodape-links li a:hover::after {
+  transform: scaleX(1);   
+}
+
+
+
+

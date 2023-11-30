@@ -1,0 +1,217 @@
+
+
+
+/*menu lateral------------------------------------------------------------*/
+
+.janela {
+    display: flex; /* Adicione display: flex para o contêiner .janela */
+    background-image: url(../assets/imgs/quebracabecaempe.webp);
+}
+
+.titulo_recomendacao{
+    /* background-color: #32b9cd; */
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+.titulo_recomendacao h2{
+    /* background-color: #8bbabb; */
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.p_e_input_recomendacao{
+    /* background-color: blanchedalmond; */
+    align-items: center;
+    justify-content: center;
+}
+
+.p_e_input_recomendacao p{
+   margin-bottom: 20px;
+}
+
+.titulo_recomendacao button{
+    margin-top: 15px;
+    width: 20%;
+    height: 10%;
+    background-color: rgb(162, 125, 199);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.titulo_recomendacao button:hover{
+    background-color: rgb(131, 85, 176);
+}
+
+
+/*lateral------------------------------------------------------------*/
+
+.header-left a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
+  .header-left {
+    z-index: 999;
+    margin-top:65px;
+    margin-bottom: 30px;
+    margin-left: 45px;
+    height:50vh;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .4);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 300px;
+
+  }
+  
+  .header-left h1 {
+    color: #32b9cd;
+  }
+
+.btn-logout {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  height: 15%;
+  background-color: rgb(162, 125, 199);
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 15px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+
+.btn-logout:hover {  
+    background-color: rgb(131, 85, 176);
+}
+
+.btn-nav-white{
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    height: 15%;
+    background-color: rgb(162, 125, 199);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.btn-nav-white:hover {  
+    background-color: rgb(131, 85, 176);
+}
+
+
+
+.hello{
+    margin-top: 80px;
+ }
+
+
+/*quebra cabeca ----------------------------------------------------------*/
+
+.imagens_quebra_cabeca {
+    display: flex;
+    justify-content: space-around; /* Alterado de space-between para space-around */
+    margin:  auto;
+    width: 1000px;
+    margin-top: 250px;
+  }
+  
+  .imagens_quebra_cabeca img {
+    width: 280px; /* Tamanho inicial das imagens */
+    height: 400px;
+    margin: 0; /* Adicionado espaçamento horizontal entre as imagens */
+    transition: width 0.5s, height 0.5s; /* Adicionada transição suave para largura e altura */
+    border-radius: 10px;
+  }
+  
+  .imagens_quebra_cabeca img:hover {
+    width: 300px; /* Tamanho quando o mouse está sobre a imagem */
+    height: 450px;
+    margin: 0; /* Adicionado espaçamento horizontal entre as imagens */
+  }
+
+  .imagens_quebra_cabeca a {
+    text-decoration: none; /* Remove sublinhado */
+    color: inherit; /* Usa a cor padrão do pai, pode ser ajustado conforme necessário */
+}
+
+
+/*rodape -----------------------------------------------------------------*/
+
+.rodape{
+    background-color: rgb(108, 151, 151);
+     height: 180px;
+  }
+  
+  .conteudo_rodape {
+    flex: 1;
+  }
+  
+  .conteudo_rodape p {
+  color: rgb(255, 255, 255);
+  margin-bottom: 40px;
+  }
+  
+  .rodape {
+    background-color: #8bbabb;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .rodape-links ul {
+    list-style: none;
+    padding: 0;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .rodape-links li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .rodape-links li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 30px;
+    position: relative; /* Add this to make the absolute positioning work */
+  }
+  
+  .rodape-links li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: rgb(255, 196, 140);
+    border-radius: 10px;
+    left: 0;
+    top: 25px;
+    transform: scaleX(0);
+    transition: transform .3s;
+  }
+  
+  .rodape-links li a:hover::after {
+    transform: scaleX(1);   
+  }

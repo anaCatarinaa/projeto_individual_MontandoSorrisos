@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#quadro {
+    width: 407px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#quadro img {
+    width: 79px;
+    height: 79px;
+    border: 1px solid black;
+}
+
+
+#pecas {
+    width: 1040px;
+    height: 160px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+
+#pecas img {
+    width: 79px;
+    height: 79px;
+}
+
+.botao_imagem {
+    width: 30%;
+    top: 150px;
+    position: absolute;
+}
+
+.botao_ver_imagem {
+    bottom: 50px;
+}
+
+#imagem_completa{
+    padding: 20px;
+}
+
+#imagem_completa img{
+    width: 300px;
+}
+
+#finalizarBtn{
+
+    margin-left: 1000px;
+    position: relative;
+    bottom: 640px;
+;}
