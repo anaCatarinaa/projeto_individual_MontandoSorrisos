@@ -207,7 +207,42 @@
         exibirErro("Por favor, preencha o campo Gênero com 'feminino', 'masculino' ou 'outros'.");
         finalizarAguardar();
         return false;
-    } else {
+      } 
+      
+      // Validando o campo Estado
+    if (estadoVar == "") {
+        exibirErro("Por favor, selecione um Estado.");
+        finalizarAguardar();
+        return false;
+    }
+
+    // Validando o campo Cidade
+    if (cidadeVar == "") {
+        exibirErro("Por favor, preencha o campo Cidade.");
+        finalizarAguardar();
+        return false;
+    }
+
+    // Validando o campo Bairro
+    if (bairroVar == "") {
+        exibirErro("Por favor, preencha o campo Bairro.");
+        finalizarAguardar();
+        return false;
+    }
+
+    // Validando o campo Rua
+    if (ruaVar == "") {
+        exibirErro("Por favor, preencha o campo Rua.");
+        finalizarAguardar();
+        return false;
+    }
+
+    // Validando o campo Número
+    if (numeroVar == "") {
+        exibirErro("Por favor, preencha o campo Número.");
+        finalizarAguardar();
+        return false;
+    }else {
       setInterval(sumirMensagem, 5000);
     }
 
